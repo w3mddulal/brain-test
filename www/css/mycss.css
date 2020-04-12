@@ -1,0 +1,16 @@
+#body {
+  background-color: aquamarine;
+}
+
+#play-now {
+  text-align: center;
+}
+
+#play-now-button {
+  width: 50%;
+  margin-top: 70%;
+}
+
+#center {
+  text-align: center;
+}

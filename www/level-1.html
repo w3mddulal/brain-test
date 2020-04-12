@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <link rel="stylesheet" href="css/onsenui.css" />
+    <link rel="stylesheet" href="css/onsen-css-components.min.css" />
+    <link rel="stylesheet" href="css/mycss.css" />
+  </head>
+  <body style="background-color: rgb(245, 98, 30);">
+    <div style="position: relative; left: 30px; margin-top: 30%;">
+      <p
+        style="
+          background: coral;
+          padding: 10px;
+          margin: 0;
+          width: 80%;
+          text-align: center;
+          border-radius: 10px;
+        "
+      >
+        9 + 8 = ?
+      </p>
+    </div>
+
+    <p
+      style="
+        color: rgb(77, 250, 77);
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        display: none;
+      "
+      id="didit"
+    >
+      Wow! You Did It
+    </p>
+    <div style="margin-top: 30%; text-align: center; margin-bottom: 0;">
+      <ons-button
+        style="
+          background: rgb(148, 53, 9);
+          padding: 25px;
+          width: 30%;
+          border-radius: 10px;
+          color: white;
+          position: relative;
+        "
+      >
+        <span style="text-align: center;"> 12 </span>
+      </ons-button>
+      <ons-button
+        style="
+          background: rgb(148, 53, 9);
+          padding: 25px;
+          width: 30%;
+          border-radius: 10px;
+          color: white;
+          margin-left: 10%;
+        "
+      >
+        <span style="text-align: center;"> 15 </span>
+      </ons-button>
+    </div>
+
+    <div style="margin-top: 30%; text-align: center; margin-top: 20px;">
+      <ons-button
+        style="
+          background: rgb(148, 53, 9);
+          padding: 25px;
+          width: 30%;
+          border-radius: 10px;
+          color: white;
+          position: relative;
+        "
+      >
+        <span style="text-align: center;" onclick="success()">17</span>
+      </ons-button>
+      <ons-button
+        style="
+          background: rgb(148, 53, 9);
+          padding: 25px;
+          width: 30%;
+          border-radius: 10px;
+          color: white;
+          margin-left: 10%;
+        "
+      >
+        <span style="text-align: center;"> 18 </span>
+      </ons-button>
+    </div>
+    <p style="text-align: center; margin-top: 10px;">Tape On Correct Answer</p>
+
+    <div id="nextarea">
+      <ons-button
+        style="
+          background: rgb(56, 229, 241);
+          padding: 10px;
+          width: 50%;
+          border-radius: 10px;
+          color: white;
+          display: none;
+        "
+        id="next"
+        >NEXT</ons-button
+      >
+    </div>
+    <script src="js/onsenui.min.js"></script>
+    <script src="app.js"></script>
+    <script src="js/myjs.js"></script>
+  </body>
+</html>
